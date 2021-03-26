@@ -81,3 +81,16 @@
 .skills-content .right .firebase::before{
     width: 60%;
 }
+
+@media (max-width: 947px){
+    .skills .skills-content .column{
+        width: 100%;
+        margin-bottom: 35px;
+    }
+}
+
+@media (max-width: 500px) {
+    .skills .skills-content .left .text{
+        font-size: 19px;
+    }
+}

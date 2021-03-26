@@ -41,3 +41,30 @@
     color: crimson;
     background: none;
 }
+
+@media (max-width: 1104px) {
+    .about .about-content .left img{
+        height: 350px;
+        width: 350px;
+    }
+}
+
+@media (max-width: 947px){
+    .about .about-content .column{
+        width: 100%;
+    }
+    .about .about-content .left{
+        display: flex;
+        justify-content: center;
+        margin: 0 auto 60px;
+    }
+    .about .about-content .right{
+        flex: 100%;
+    }
+}
+
+@media (max-width: 500px) {
+    .about .about-content .right .text{
+        font-size: 19px;
+    }
+}
